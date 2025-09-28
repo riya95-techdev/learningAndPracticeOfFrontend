@@ -1,0 +1,56 @@
+.container{
+    padding:0;
+    margin:0;
+}
+.nav-bar{
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headingone{
+    color: brown;
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.right-elements{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+body{
+    background-image:url(image1.png), url(image2.png);
+}
+.header-hero{
+    position: relative;
+    
+}
+.whiteDiv{
+    background-color: aqua;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    
+}
+
+.image{
+    text-align: center;
+}
+.image img{
+    position: relative;
+    left:-230px;
+    top: 50px;
+}
+
+.whiteDivHeading{
+    font-size: 30px;
+}
+
